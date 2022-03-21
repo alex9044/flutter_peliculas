@@ -1,0 +1,62 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+WipError: WipError -32000 Cannot find context with specified id
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.10.3, on Microsoft Windows [VersiÃ³n 10.0.19044.1586], locale es-ES)
+    • Flutter version 2.10.3 at C:\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 7e9793dee1 (12 days ago), 2022-03-02 11:23:12 -0600
+    • Engine revision bd539267b4
+    • Dart version 2.16.1
+    • DevTools version 2.9.2
+
+[!] Android toolchain - develop for Android devices (Android SDK version 32.1.0-rc1)
+    • Android SDK at C:\Users\ACCESO USUARIO\AppData\Local\Android\sdk
+    • Platform android-32, build-tools 32.1.0-rc1
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 11.0.11+9-b60-7590822)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Users\ACCESO USUARIO\AppData\Local\Google\Chrome\Application\chrome.exe
+
+[✗] Visual Studio - develop for Windows
+    ✗ Visual Studio not installed; this is necessary for Windows development.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[✓] Android Studio (version 2021.1)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.11+9-b60-7590822)
+
+[✓] VS Code (version 1.65.2)
+    • VS Code at C:\Users\ACCESO USUARIO\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.36.0
+
+[✓] Connected device (3 available)
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [VersiÃ³n 10.0.19044.1586]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 99.0.4844.51
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 98.0.1108.62
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+! Doctor found issues in 2 categories.
+```
