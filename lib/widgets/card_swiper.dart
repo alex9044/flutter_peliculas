@@ -25,7 +25,7 @@ class CardSwiper extends StatelessWidget {
                 placeholder: AssetImage(
                   'assets/no-image.jpg'
                 ),
-                image: NetworkImage('https://via.placeholder.com/150')
+                image: NetworkImage('https://baconmockup.com/300/200')
               ),
             ),
           );

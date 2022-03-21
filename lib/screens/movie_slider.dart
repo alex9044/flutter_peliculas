@@ -53,8 +53,7 @@ class _MoviePoster extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
               child: FadeInImage(
                 placeholder: AssetImage('assets/no-image.jpg'),
-                image:
-                    NetworkImage('https://www.pexels.com/es-es/foto/mujer-taza-telefono-inteligente-ordenador-portatil-4050413/', scale: 1),
+                image: NetworkImage('https://baconmockup.com/300/200'),
                 width: 130,
                 height: 190,
                 fit: BoxFit.cover,
@@ -64,12 +63,10 @@ class _MoviePoster extends StatelessWidget {
           SizedBox(
             height: 5,
           ),
-          Text(
-            'teste-nombre',
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-            textAlign: TextAlign.center
-          )
+          Text('teste-nombre',
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center)
         ],
       ),
     );
