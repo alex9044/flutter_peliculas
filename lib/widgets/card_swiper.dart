@@ -10,7 +10,6 @@ class CardSwiper extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: size.height * 0.5,
-      color: Colors.red,
       child: Swiper(
         itemCount: 10,
         layout: SwiperLayout.STACK,
@@ -25,7 +24,7 @@ class CardSwiper extends StatelessWidget {
                 placeholder: AssetImage(
                   'assets/no-image.jpg'
                 ),
-                image: NetworkImage('https://baconmockup.com/300/200')
+                image: NetworkImage('https://loremflickr.com/200/300')
               ),
             ),
           );

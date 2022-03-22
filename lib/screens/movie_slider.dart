@@ -8,7 +8,6 @@ class MovieSlider extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: 260,
-      color: Colors.blue,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -42,7 +41,6 @@ class _MoviePoster extends StatelessWidget {
     return Container(
       width: 130,
       height: 190,
-      color: Colors.green,
       margin: EdgeInsets.symmetric(horizontal: 10),
       child: Column(
         children: [
@@ -53,7 +51,7 @@ class _MoviePoster extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
               child: FadeInImage(
                 placeholder: AssetImage('assets/no-image.jpg'),
-                image: NetworkImage('https://baconmockup.com/300/200'),
+                image: NetworkImage('https://loremflickr.com/130/190'),
                 width: 130,
                 height: 190,
                 fit: BoxFit.cover,
